@@ -21,7 +21,7 @@ export default function HomeScreenPage() {
 
           <div className="relative mt-8 grid grid-cols-2 gap-4">
             <Link
-              href="#"
+              href="/gang"
               className="group relative overflow-hidden rounded-2xl border border-[color-mix(in_oklab,var(--color-brand-ink),white_80%)] bg-white p-4 text-left shadow-[0_14px_24px_-18px_rgba(47,27,87,0.7),0_2px_10px_-6px_rgba(47,27,87,0.35)] transition hover:-translate-y-1 hover:shadow-[0_24px_30px_-18px_rgba(47,27,87,0.75),0_10px_14px_-10px_rgba(47,27,87,0.45)]"
             >
               <span className="absolute -right-6 -top-6 h-16 w-16 rounded-full bg-[var(--color-brand-primary-soft)]/80 transition-transform duration-300 group-hover:scale-110" />
