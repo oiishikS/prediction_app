@@ -19,7 +19,7 @@ export default function HomeScreenPage() {
             You are in. Pick what you want to do next with your crew.
           </p>
 
-          <div className="relative mt-8 grid gap-3 sm:grid-cols-2">
+          <div className="relative mt-8 grid grid-cols-2 gap-3">
             <Link
               href="#"
               className="rounded-2xl border border-[color-mix(in_oklab,var(--color-brand-ink),white_78%)] bg-white px-5 py-4 text-center text-sm font-semibold text-[var(--color-brand-ink)] shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
