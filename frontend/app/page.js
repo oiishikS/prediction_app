@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[var(--color-brand-bg)] px-4 py-8 sm:px-6 md:py-12">
@@ -15,7 +17,8 @@ export default function Home() {
           </p>
 
           <div className="relative mt-10">
-            <button
+            <Link
+              href="/onboarding/username"
               aria-label="Continue with Google"
               title="Continue with Google"
               className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-200 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-brand-primary)]"
@@ -43,7 +46,7 @@ export default function Home() {
                   d="M12 6.01c1.5 0 2.85.52 3.9 1.53l2.92-2.92A9.8 9.8 0 0 0 12 2a10 10 0 0 0-9.1 5.56l3.4 2.65c.8-2.4 3.05-4.2 5.7-4.2Z"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </section>
       </main>
