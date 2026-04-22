@@ -18,7 +18,7 @@ export default function Home() {
 
           <div className="relative mt-10">
             <Link
-              href="/onboarding/username"
+              href="/new-user"
               aria-label="Continue with Google"
               title="Continue with Google"
               className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-1 ring-slate-200 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-brand-primary)]"
