@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Fun Prediction App",
-  description: "A lightweight mobile-first prediction game among friends.",
+  title: "Called It.",
+  description: "Fun, mobile-first prediction game for friends.",
 };
 
 export default function RootLayout({ children }) {
