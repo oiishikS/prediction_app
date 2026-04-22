@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function GangPage() {
   const members = [
     { name: "Aarav", badge: "Captain", score: 126 },
@@ -31,7 +33,10 @@ export default function GangPage() {
             next prediction before kickoff.
           </p>
 
-          <section className="relative mt-8 rounded-2xl border border-[color-mix(in_oklab,var(--color-brand-accent),white_55%)] bg-[linear-gradient(145deg,color-mix(in_oklab,var(--color-brand-accent),white_78%),white)] p-5 shadow-[0_16px_26px_-18px_rgba(19,126,112,0.6),0_6px_10px_-8px_rgba(19,126,112,0.35)]">
+          <Link
+            href="/room"
+            className="relative mt-8 block rounded-2xl border border-[color-mix(in_oklab,var(--color-brand-accent),white_55%)] bg-[linear-gradient(145deg,color-mix(in_oklab,var(--color-brand-accent),white_78%),white)] p-5 shadow-[0_16px_26px_-18px_rgba(19,126,112,0.6),0_6px_10px_-8px_rgba(19,126,112,0.35)] transition hover:-translate-y-0.5 hover:shadow-[0_20px_30px_-18px_rgba(19,126,112,0.62),0_8px_12px_-8px_rgba(19,126,112,0.35)]"
+          >
             <p className="text-xs font-semibold uppercase tracking-wide text-[color-mix(in_oklab,var(--color-brand-ink),white_20%)]">
               Next match
             </p>
@@ -46,7 +51,7 @@ export default function GangPage() {
             <p className="mt-2 text-sm text-[color-mix(in_oklab,var(--color-brand-ink),white_32%)]">
               Predictions close in 1h 08m. Lock your pick before kickoff.
             </p>
-          </section>
+          </Link>
 
           <section className="mt-4 rounded-2xl bg-[linear-gradient(145deg,var(--color-brand-primary),color-mix(in_oklab,var(--color-brand-primary),black_14%))] p-5 shadow-[0_16px_28px_-18px_rgba(47,27,87,0.78),0_8px_12px_-10px_rgba(47,27,87,0.5)]">
             <h2 className="text-base font-bold text-white sm:text-lg">
